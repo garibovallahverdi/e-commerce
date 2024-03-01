@@ -1,0 +1,2 @@
+export const SET_SUB_MENU = 'SET_SUB_MENU'
+export const SET_SUB_MENU_CLOSE = 'SET_SUB_MENU_CLOSE'

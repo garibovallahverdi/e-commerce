@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    @apply font-poppins
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+.btn-secondary {
+    @apply px-9 py-5 rounded-full bg-[#0f172a] text-white text-base
+}
+.slick-slider {
+}
+
+.slick-list {
+}
+
+.btn-active {
+    @apply rounded-full bg-[#0f172a] text-white text-base
+
+}
